@@ -13,6 +13,6 @@ private:
 public:
 	string GetBookName() const;
 	int GetBookISBN() const;
-	void SetBookInfo(string bookName, string authorName, int ISBN, string desc = "default");
+	void Book(string bookName, string authorName, int ISBN, string desc = "default"); //생성자함수다시만들기
 	void ShowBookInfo() const;
 };
