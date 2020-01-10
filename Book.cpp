@@ -8,7 +8,7 @@ int Book::GetBookISBN() const {
 	return ISBN;
 }
 
-void Book::Book(string bookName, string authorName, int ISBN, string desc) { // 생성자 함수로 수정하기 
+Book::Book(string bookName, string authorName, int ISBN, string desc) { // 생성자 함수로 수정하기 
 	this->bookName = bookName;
 	this->authorName = authorName;
 	this->ISBN = ISBN;
